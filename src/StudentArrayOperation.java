@@ -8,13 +8,12 @@ public interface StudentArrayOperation {
 
 	/**
 	 * Returns the array of students
-	 * 
+	 * 0.
 	 * @return the array of students
 	 * 
 	 */
 	Student[] getStudents();
 	
-
 	/**
 	 * Sets the array of students
 	 * if students == null method should throw IllegalArgumentException
@@ -24,7 +23,6 @@ public interface StudentArrayOperation {
 	 * @throws IllegalArgumentException
 	 */
 	void setStudents(Student[] students);
-	
 
 	/**
 	 * if index lower than 0 or index higher/equal students.length method should
@@ -33,7 +31,7 @@ public interface StudentArrayOperation {
 	 * @param index
 	 */
 	Student getStudent(int index);
-
+	
 	
 	/**
 	 * Replaces the element at the specified position in this array with the
@@ -50,6 +48,7 @@ public interface StudentArrayOperation {
 	 * @throws IllegalArgumentException
 	 */
 	void setStudent(Student student, int index);
+	
 
 	
 	/**
